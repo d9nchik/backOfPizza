@@ -1,0 +1,624 @@
+{
+  "products": [
+    {
+      "url": "peperoni_bluz",
+      "productName": "Пепперони Блюз",
+      "ingredients": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "price": 124.99,
+      "images": [
+        "img/pizza/classic/peperoni_bluz_short.jpg",
+        "img/pizza/classic/peperoni_bluz_full.jpg"
+      ],
+      "weight": 296,
+      "relatedProductIds": [
+        15,
+        9,
+        1,
+        8,
+        2
+      ],
+      "categoryId": 0
+    },
+    {
+      "url": "texas",
+      "productName": "Техас",
+      "ingredients": [
+        5,
+        6,
+        7,
+        8,
+        1,
+        4
+      ],
+      "price": 92.99,
+      "images": [
+        "img/pizza/classic/texas_short.jpg",
+        "img/pizza/classic/texas_full.jpg"
+      ],
+      "weight": 378,
+      "relatedProductIds": [
+        7,
+        11,
+        9,
+        14,
+        10
+      ],
+      "categoryId": 0
+    },
+    {
+      "url": "tomato_piperony",
+      "productName": "Пепперони с томатами",
+      "ingredients": [
+        9,
+        1,
+        2,
+        4
+      ],
+      "price": 92.99,
+      "images": [
+        "img/pizza/classic/tomato_peperony_short.jpg",
+        "img/pizza/classic/tomato_peperony_full.jpg"
+      ],
+      "weight": 350,
+      "relatedProductIds": [
+        5,
+        3,
+        8,
+        1,
+        14
+      ],
+      "categoryId": 0
+    },
+    {
+      "url": "tony_piperony",
+      "productName": "Тони Пепперони",
+      "ingredients": [
+        10,
+        1,
+        2,
+        4
+      ],
+      "price": 124.99,
+      "images": [
+        "img/pizza/classic/tony_peperony_short.jpg",
+        "img/pizza/classic/tony_peperony_full.jpg"
+      ],
+      "weight": 340,
+      "relatedProductIds": [
+        15,
+        13,
+        7,
+        1,
+        14
+      ],
+      "categoryId": 0
+    },
+    {
+      "url": "country",
+      "productName": "Кантри",
+      "ingredients": [
+        6,
+        11,
+        12,
+        7,
+        1,
+        14,
+        13,
+        4
+      ],
+      "price": 152.99,
+      "images": [
+        "img/pizza/branded/country_short.jpg",
+        "img/pizza/branded/country_full.jpg"
+      ],
+      "weight": 380,
+      "relatedProductIds": [
+        10,
+        14,
+        12,
+        6,
+        13
+      ],
+      "categoryId": 1
+    },
+    {
+      "url": "vegetable_extravaganza",
+      "productName": "Овощная Феерия",
+      "ingredients": [
+        15,
+        6,
+        16,
+        7,
+        1,
+        9,
+        10,
+        4
+      ],
+      "price": 152.99,
+      "images": [
+        "img/pizza/branded/vegetable_extravaganza_short.jpg",
+        "img/pizza/branded/vegetable_extravaganza_full.jpg"
+      ],
+      "weight": 405,
+      "relatedProductIds": [
+        9,
+        8,
+        11,
+        14,
+        13
+      ],
+      "categoryId": 1
+    },
+    {
+      "url": "curry",
+      "productName": "Карри",
+      "ingredients": [
+        17,
+        18,
+        19,
+        1,
+        6,
+        4
+      ],
+      "price": 152.99,
+      "images": [
+        "img/pizza/branded/curry_short.jpg",
+        "img/pizza/branded/curry_full.jpg"
+      ],
+      "isNew": true,
+      "weight": 383,
+      "relatedProductIds": [
+        7,
+        5,
+        15,
+        10,
+        13
+      ],
+      "categoryId": 1
+    },
+    {
+      "url": "paparazzi",
+      "productName": "ПапараZZи",
+      "ingredients": [
+        15,
+        1,
+        2,
+        9,
+        3,
+        4
+      ],
+      "price": 152.99,
+      "images": [
+        "img/pizza/branded/paparazzi_short.jpg",
+        "img/pizza/branded/paparazzi_full.jpg"
+      ],
+      "weight": 346,
+      "relatedProductIds": [
+        9,
+        0,
+        15,
+        3,
+        6
+      ],
+      "categoryId": 1
+    },
+    {
+      "url": "toskana",
+      "productName": "Тоскана",
+      "ingredients": [
+        20,
+        21,
+        22,
+        1,
+        17,
+        3,
+        4
+      ],
+      "price": 172.99,
+      "images": [
+        "img/pizza/legend/toskana_short.jpg",
+        "img/pizza/legend/toskana_full.jpg"
+      ],
+      "weight": 374,
+      "relatedProductIds": [
+        15,
+        10,
+        13,
+        1,
+        4
+      ],
+      "categoryId": 2
+    },
+    {
+      "url": "munich_de_lux",
+      "productName": "Мюнхенская DeLUX",
+      "ingredients": [
+        12,
+        23,
+        24,
+        8,
+        1,
+        9,
+        4
+      ],
+      "price": 172.99,
+      "images": [
+        "img/pizza/legend/munich_de_lux_short.jpg",
+        "img/pizza/legend/munich_de_lux_full.jpg"
+      ],
+      "weight": 424,
+      "relatedProductIds": [
+        15,
+        13,
+        2,
+        10,
+        12
+      ],
+      "categoryId": 2
+    },
+    {
+      "url": "spicy",
+      "productName": "Спайси",
+      "ingredients": [
+        25,
+        11,
+        1,
+        2,
+        9,
+        10,
+        4
+      ],
+      "price": 172.99,
+      "images": [
+        "img/pizza/legend/spicy_short.jpg",
+        "img/pizza/legend/spicy_full.jpg"
+      ],
+      "spicy": true,
+      "weight": 380,
+      "relatedProductIds": [
+        15,
+        11,
+        14,
+        12,
+        3
+      ],
+      "categoryId": 2
+    },
+    {
+      "url": "bbq_deluxe",
+      "productName": "BBQ Делюкс",
+      "ingredients": [
+        26,
+        27,
+        6,
+        16,
+        7,
+        1,
+        2,
+        4
+      ],
+      "price": 172.99,
+      "images": [
+        "img/pizza/legend/bbq_deluxe_short.jpg",
+        "img/pizza/legend/bbq_deluxe_full.jpg"
+      ],
+      "weight": 389,
+      "relatedProductIds": [
+        1,
+        9,
+        10,
+        12,
+        8
+      ],
+      "categoryId": 2
+    },
+    {
+      "url": "five_cheese",
+      "productName": "Пять Сыров",
+      "ingredients": [
+        20,
+        27,
+        1,
+        3,
+        28,
+        29,
+        4
+      ],
+      "price": 187.99,
+      "images": [
+        "img/pizza/premium/five_cheese_short.jpg",
+        "img/pizza/premium/five_cheese_full.jpg"
+      ],
+      "weight": 338,
+      "relatedProductIds": [
+        2,
+        7,
+        3,
+        0,
+        10
+      ],
+      "categoryId": 3
+    },
+    {
+      "url": "spinach_feta",
+      "productName": "Шпинат и Фета",
+      "ingredients": [
+        20,
+        15,
+        16,
+        7,
+        1,
+        9,
+        3,
+        22,
+        4
+      ],
+      "price": 187.99,
+      "images": [
+        "img/pizza/premium/spinach_feta_short.jpg",
+        "img/pizza/premium/spinach_feta_full.jpg"
+      ],
+      "weight": 405,
+      "relatedProductIds": [
+        10,
+        6,
+        2,
+        9,
+        3
+      ],
+      "categoryId": 3
+    },
+    {
+      "url": "mizza",
+      "productName": "МитZZа",
+      "ingredients": [
+        27,
+        11,
+        1,
+        12,
+        8,
+        2,
+        10,
+        4
+      ],
+      "price": 187.99,
+      "images": [
+        "img/pizza/premium/mizza_short.jpg",
+        "img/pizza/premium/mizza_full.jpg"
+      ],
+      "weight": 391,
+      "relatedProductIds": [
+        9,
+        3,
+        13,
+        1,
+        6
+      ],
+      "categoryId": 3
+    },
+    {
+      "url": "extravaganza",
+      "productName": "Экстраваганzza",
+      "ingredients": [
+        26,
+        15,
+        6,
+        16,
+        12,
+        7,
+        1,
+        2,
+        4,
+        10
+      ],
+      "price": 187.99,
+      "images": [
+        "img/pizza/premium/extravaganza_short.jpg",
+        "img/pizza/premium/extravaganza_full.jpg"
+      ],
+      "isNew": true,
+      "weight": 470,
+      "relatedProductIds": [
+        7,
+        3,
+        6,
+        8,
+        1
+      ],
+      "categoryId": 3
+    }
+  ],
+  "productsCategories": [
+    {
+      "url": "classic",
+      "name": "Классические",
+      "description": "Классическая пицца выпекается в специальной дровяной печи, которая называется помпейской и имеет форму свода в виде полусферы."
+    },
+    {
+      "url": "branded",
+      "name": "Фирменные",
+      "description": "блюдо с большим количеством мяса, овощей и зелени. В состав рецептуры входят ломтики бекона, курицы-гриль, острые итальянские колбаски пепперони, ветчина. Паприка, зелень и сыр моцарелла дополняют восхитительную мясную композицию."
+    },
+    {
+      "url": "legend",
+      "name": "Легенды",
+      "description": "это национальное итальянское блюдо, представляющее собой круглую открытую лепешку, покрытую расплавленным сыром (обычно моцарелла) и томатами. Сыр – это, безусловно, основной ингредиент пиццы."
+    },
+    {
+      "url": "premium",
+      "name": "Премиум",
+      "description": "Отборные продукты в сочитании с мастерством повара найдет поклоников даже сред очень больших капризов."
+    }
+  ],
+  "ingredients": [
+    {
+      "title": "Бергадер Блю",
+      "image": "img/ingredients/barhader_blu.png"
+    },
+    {
+      "title": "Моцарелла",
+      "image": "img/ingredients/mozzarella.png"
+    },
+    {
+      "title": "Пепперони",
+      "image": "img/ingredients/pepperony.jpg"
+    },
+    {
+      "title": "Соус Альфредо",
+      "image": "img/ingredients/alfredo.jpg"
+    },
+    {
+      "title": "Соус Барбекю",
+      "image": "img/ingredients/bbq_souse.png"
+    },
+    {
+      "title": "Кукуруза",
+      "image": "img/ingredients/corn.jpeg"
+    },
+    {
+      "title": "Лук",
+      "image": "img/ingredients/onion.jpg"
+    },
+    {
+      "title": "Грибы",
+      "image": "img/ingredients/mushrooms.png"
+    },
+    {
+      "title": "Колбаски баварские",
+      "image": "img/ingredients/hunt_sausage.jpg"
+    },
+    {
+      "title": "Помидоры",
+      "image": "img/ingredients/tomato.png"
+    },
+    {
+      "title": "Соус Domino's",
+      "image": "img/ingredients/dominos_souse.png"
+    },
+    {
+      "title": "Бекон",
+      "image": "img/ingredients/bacon.jpg"
+    },
+    {
+      "title": "Ветчина",
+      "image": "img/ingredients/ham.jpg"
+    },
+    {
+      "title": "Соус Чесночный",
+      "image": "img/ingredients/garlic_sause.png"
+    },
+    {
+      "title": "Огурцы маринованные",
+      "image": "img/ingredients/pickled_cucumber.jpg"
+    },
+    {
+      "title": "Оливки",
+      "image": "img/ingredients/olives.jpg"
+    },
+    {
+      "title": "Болгарский перец",
+      "image": "img/ingredients/bolgar_pepper.png"
+    },
+    {
+      "title": "Курица",
+      "image": "img/ingredients/chicken.jpg"
+    },
+    {
+      "title": "Cоус Карри",
+      "image": "img/ingredients/curry_sause.jpg"
+    },
+    {
+      "title": "Ананас",
+      "image": "img/ingredients/ananas.png"
+    },
+    {
+      "title": "Фета",
+      "image": "img/ingredients/feta.jpg"
+    },
+    {
+      "title": "Помидоры черри",
+      "image": "img/ingredients/cherry-tomatoes.png"
+    },
+    {
+      "title": "Шпинат",
+      "image": "img/ingredients/shpinat.png"
+    },
+    {
+      "title": "Горчица",
+      "image": "img/ingredients/mustard.png"
+    },
+    {
+      "title": "Сосиски белые",
+      "image": "img/ingredients/white_sausages.png"
+    },
+    {
+      "title": "Халапеньо",
+      "image": "img/ingredients/jalapeno.jpg"
+    },
+    {
+      "title": "Фрикадельки",
+      "image": "img/ingredients/meatballs.png"
+    },
+    {
+      "title": "Пармезан",
+      "image": "img/ingredients/parmezan.png"
+    },
+    {
+      "title": "Бергадер Блю",
+      "image": "img/ingredients/bergader_blue.png"
+    },
+    {
+      "title": "Чеддер",
+      "image": "img/ingredients/cheder.jpg"
+    }
+  ],
+  "recommendations": [
+    2,
+    1,
+    6,
+    12
+  ],
+  "promotions": [
+    {
+      "url": "-50-every-second-pizza",
+      "name": "Пицца выходного дня: -50% на пиццу!",
+      "description": "Покупай на выходных каждую вторую большую и среднюю пиццу со скидкой -50%! Акция действует в пятницу, субботу и воскресенье.\n\nАкция распространяется на любые средние и большие пиццы. Акция действует на заказы в пиццерии (до 22:00), с собой и на доставку в пятницу, а в субботу и воскресенье акция действует на доставку и на заказы с собой.\n\nВ акции не участвуют маленькие пиццы. Скидка предоставляется на более дешёвый товар в чеке.",
+      "datePosted": "14-11-2020",
+      "img": "img/sales/-50-every-second-pizza.jpg"
+    },
+    {
+      "url": "179-uah-pizza",
+      "name": "179 грн за пиццу!",
+      "description": "Покупай от двух средних пицц одним чеком и получи их всего за 179 грн за каждую. Акция распространяется на пиццы среднего размера на любом типе теста. Согласно условиям акции, пицца со скидкой должна быть из меню без добавления ингредиентов. ",
+      "datePosted": "08-11-2020",
+      "img": "img/sales/179-uah-pizza.jpg"
+    },
+    {
+      "url": "crazy-tuesday",
+      "name": "Сумасшедший вторник!",
+      "description": "Каждый вторник Domino's проводит невероятную акцию «Сумасшедший вторник» - покупай одну среднюю или большую пиццу и получай вторую со скидкой 80%!\nВ акции не участвуют маленькие пиццы. ",
+      "datePosted": "25-03-2020",
+      "img": "img/sales/crazy-tuesday.jpg"
+    },
+    {
+      "url": "woweekend-u-dominos",
+      "name": "WOWeekend в Domino's!",
+      "description": "Заказывай любую среднюю пиццу за 199 грн или большую пиццу всего за 239 грн!\n\nАкция действует каждую пятницу, субботу и воскресенье.\nАкция действует на пиццы из меню. Акция не действует на пиццы за собственном рецептом.",
+      "datePosted": "01-04-2020",
+      "img": "img/sales/woweekend-u-dominos.jpg"
+    },
+    {
+      "url": "30-every-second-pizza",
+      "name": "30% на каждую вторую пиццу",
+      "description": "Заказывай каждую вторую пиццу со скидкой -30%!\n\nАкция распространяется на пиццы среднего и большого размера на любом типе теста. Акция действует на доставку, на заказы в пиццерии и с собой. Скидка предоставляется на самый дешевый товар в чеке.",
+      "datePosted": "11-09-2020",
+      "img": "img/sales/30-every-second-pizza.jpg"
+    }
+  ]
+}
