@@ -66,6 +66,7 @@ def add_message():
     content = request.json
     print(content)
     submitDataToGod(content)
+    submitToSlave(content)
     return '{}'.format(int(time.time()))
 
 
@@ -76,9 +77,22 @@ def submitDataToGod(content):
     send_message(admin_chat_id, f'Создатель тебе заказ: \n{text}')
 
 
-import requests
+def submitToSlave(content):
+    items_text = '{\n'
+    for product_url in content['cart']:
+        item = list(filter(lambda product: product['url'] == product_url, bigJsonObj['products']))[0]
+        items_text += f'{item["productName"]}: {content["cart"][product_url]}\n'
+    items_text += '}'
+    text = 'Дата: {}\nВремя: {}\nКуда: {}\n Что: {}'.format(content['date'], content['time'], content['address'],
+                                                            items_text)
+    send_message(admin_chat_id, f'Привет {content["firstName"]} вот твой заказ: \n{text}')
+
+
+import requests, re
 
 admin_chat_id = 479246950
+
+registration = {}
 
 
 @app.route('/webHook', methods=['POST'])
@@ -86,7 +100,13 @@ def receive_updates():
     content = request.json
     print(content)
     chat_id = request.json["message"]["chat"]["id"]
-    send_message(chat_id, "pong")
+    chat_text = content['message']['text']
+    if re.match(r'/register 09\d{8}', chat_text):
+        number = chat_text.split()
+        registration[number[1]] = chat_id
+        send_message(chat_id, "Спасибо, что присоединился.\nЯ сообщу о твоих заказах")
+    else:
+        send_message(chat_id, 'Введи команду в формате /register 0975962756\n где 0975962756 - ваш номер телефона')
     return {"ok": True}
 
 
