@@ -68,5 +68,25 @@ def add_message():
     return '{}'.format(int(time.time()))
 
 
+import requests
+
+
+@app.route('/webHook', methods=['POST'])
+def receive_updates():
+    content = request.json
+    print(content)
+    chat_id = request.json["message"]["chat"]["id"]
+    send_message(chat_id, "pong")
+    return {"ok": True}
+
+
+def send_message(chat_id, text):
+    method = "sendMessage"
+    token = "1492534854:AAG5K7FpyLGe2TEgxBYRz8jx-b588ylHYGg"
+    url = f"https://api.telegram.org/bot{token}/{method}"
+    data = {"chat_id": chat_id, "text": text}
+    requests.post(url, data=data)
+
+
 if __name__ == '__main__':
     app.run()
