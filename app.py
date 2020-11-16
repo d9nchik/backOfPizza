@@ -65,10 +65,20 @@ import time
 def add_message():
     content = request.json
     print(content)
+    submitDataToGod(content)
     return '{}'.format(int(time.time()))
 
 
+def submitDataToGod(content):
+    text = ''
+    for key in content:
+        text += f'{key}: {content[key]}\n'
+    send_message(admin_chat_id, f'Создатель тебе заказ: \n{text}')
+
+
 import requests
+
+admin_chat_id = 479246950
 
 
 @app.route('/webHook', methods=['POST'])
