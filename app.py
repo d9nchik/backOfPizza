@@ -78,6 +78,8 @@ def submitDataToGod(content):
 
 
 def submitToSlave(content):
+    if content['phone'] not in registration.keys():
+        return
     items_text = '{\n'
     for product_url in content['cart']:
         item = list(filter(lambda product: product['url'] == product_url, bigJsonObj['products']))[0]
@@ -85,7 +87,7 @@ def submitToSlave(content):
     items_text += '}'
     text = 'Дата: {}\nВремя: {}\nКуда: {}\n Что: {}'.format(content['date'], content['time'], content['address'],
                                                             items_text)
-    send_message(admin_chat_id, f'Привет {content["firstName"]} вот твой заказ: \n{text}')
+    send_message(registration[content]['phone'], f'Привет {content["firstName"]} вот твой заказ: \n{text}')
 
 
 import requests, re
